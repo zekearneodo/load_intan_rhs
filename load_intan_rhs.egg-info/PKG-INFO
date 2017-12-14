@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: load-intan-rhs
+Version: 0.1
+Summary: Adaptation of Michael Gibson's script for loading Intan .rhs files
+Home-page: http://github.com/zekearneodo/load_intan_rhs
+Author: Zeke Arneodo
+Author-email: earneodo@ucsd.edu
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
