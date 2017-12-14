@@ -29,7 +29,7 @@ def data_to_result(header, data, data_present):
     if header['num_board_dac_channels'] > 0:
         result['board_dac_channels'] = header['board_dac_channels']
         if data_present:
-            result['board_adc_data'] = data['board_adc_data']
+            result['board_dac_data'] = data['board_dac_data']
             result['t_board_dac'] = data['t_board_dac']
 
     if header['num_board_dig_in_channels'] > 0:
