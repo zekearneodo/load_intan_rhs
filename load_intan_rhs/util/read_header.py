@@ -92,9 +92,8 @@ def read_header(fid):
     header['board_dig_out_channels'] = []
 
     # Read signal summary from data file header.
-
     number_of_signal_groups, = struct.unpack('<h', fid.read(2))
-    #print('n signal groups {}'.format(number_of_signal_groups))
+    print('n signal groups {}'.format(number_of_signal_groups))
 
     for signal_group in range(0, number_of_signal_groups):
         signal_group_name = read_qstring(fid)
